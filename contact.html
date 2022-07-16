@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            margin: 0;
+            background-color: skyblue;
+        }
+        .menu-nav{
+            background-color: darkblue;
+            padding: 20px;
+        }
+        .menu-items{
+            text-align: center;
+        }
+        .place{
+            padding-top:20px ;
+            text-align: center;
+            color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        .desc{
+            padding: 20px;
+        }
+        .input-feild{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top: 0;
+            border-left:0;
+            border-right: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+        .input-feilds-container{
+            background-color: white;
+            border: 1px solid #ccc;
+            padding-top:80px;
+            text-align: center;
+            padding-bottom:40px;
+            padding-left:80px;
+            padding-right:80px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+        }
+
+        .btn{
+            background-color: #0056ff;
+            padding: 10px;
+            font-size: 18px;
+            color:white;
+            border: none;
+        }
+        .title{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <Nav class="menu-nav">
+        <div class="menu-items">
+            <a class="menu-item" href="/">TRIPS</a>
+        <a class="menu-item" href="/">ABOUT</a>
+        <a class="menu-item" href="/">CONTACT</a>
+        </div>
+    </Nav>
+   <div>
+       <h3 class="title">
+           Wanna come on my next Trip
+       </h3>
+       <form action="">
+           <div class="input-feilds-container">
+               <input type="text" name="name" placeholder="name" class="input-feild" >
+               <input type="email" name="email" placeholder="email" class="input-feild" >
+               <input type="text" name="number" placeholder="number" class="input-feild" >
+               <input type="submit" name="submit" class="btn">
+           </div>
+       </form>
+   </div>
+</body>
+</html>
